@@ -1,0 +1,109 @@
+#budget{
+    display: inline-block;
+}
+
+.text1{
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7ch;
+}
+#text1{
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7ch;
+}
+.main_data{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.budget{
+    width: 100%;
+    display:none;
+
+}
+#text1 {
+    margin: 20px;
+}
+
+/*------------------ NAVBAR--------------------------*/
+/* cyrillic */
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poiret One'), local('PoiretOne-Regular'), url(http://fonts.gstatic.com/s/poiretone/v4/cKr_e199f0xMkxMkRbEJXyEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poiret One'), local('PoiretOne-Regular'), url(http://fonts.gstatic.com/s/poiretone/v4/3Annd_XP-99FcGbOpm6fVCEAvth_LlrfE80CYdSH47w.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poiret One'), local('PoiretOne-Regular'), url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8fk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+* {
+    margin: auto;
+}
+#nav {
+    background: #2a2a2a;
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid #63CBE4;
+    line-height: normal;
+
+}
+#nav li{
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    font-family: Poiret One;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    transition: ease 0.65s;
+    padding: 21px;
+    display: inline-block;
+}
+#nav li:hover{
+    color: #63CBE4;
+    cursor: pointer;
+    transition: ease 0.65s;
+    background-color: #212121;
+    padding-bottom: 19px;
+}
+body {
+    background-image: url("../img/SkKQN7b.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#ip{
+    z-index: 99999999999999999;
+    margin-top: -50px;
+    float: right;
+    margin-right: 50px;
+    font-size: 25px;
+    list-style-type: none;
+    color: white;
+    font-family: poiret one;
+    text-transform: uppercase;
+    transition: ease 0.65s;
+}
+#ip:hover{
+    background-color: none;
+    color: #63CBE4;
+    transition: ease 0.65s;
+}
+/*------------------ NAVBAR END!--------------------------*/

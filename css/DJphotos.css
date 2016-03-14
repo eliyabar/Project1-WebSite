@@ -1,0 +1,36 @@
+.comment {
+    width: 25em;
+    background: #fff;
+    padding: 2em;
+    border-radius: 0.3em;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
+    line-height: 1.3em;
+    color: #333;
+}
+.comment .header {
+    font-size: 0.6em;
+    margin-bottom: 1em;
+}
+.comment .header h1 {
+    font-weight: 300;
+    color: #555;
+    margin-bottom: -0.2em;
+}
+.comment .header sub {
+    color: #999;
+    font-weight: 700;
+}
+.comment .avatar {
+    border-radius: 4em;
+    margin-right: 1em;
+    margin-left: -5em;
+    margin-top: 0em;
+    float: left;
+    box-shadow: 0 0 0.4em rgba(0,0,0,0.2);
+}
+.comment p {
+    margin: 0;
+}
+.comment p+p {
+    margin-top: 1em;
+}

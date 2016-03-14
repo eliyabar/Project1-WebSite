@@ -1,0 +1,66 @@
+#wrap { width: 475px;}
+
+#photos {
+    position: relative;
+    width: 475px;
+    height: 264px;
+    clear: both;
+}
+
+#photos img {
+    position: absolute;
+    z-index: 0;
+}
+
+#photos img.previous {
+    z-index: 1;
+}
+
+#photos img.current {
+    z-index: 2;
+}
+
+#switch {
+    cursor: pointer;
+}
+
+#dots {
+    padding: 10px;
+    margin-left: 160px;
+}
+#photos img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#nextHall,
+#prevHall,
+#dots li {
+    background-image: url('http://chrisskinner.co/lab/slideshow/dot.gif');
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#dots li {
+    background-position: 0 0;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+#dots li:hover,
+#dots li.selected {	background-position: -20px 0; }
+
+#nextHall,
+#prevHall { position: relative; z-index: 1; top: -40px;}
+
+#nextHall {
+    float: right;
+    background-position: 0 -20px;
+}
+#prevHall {
+    float: left;
+    background-position: -20px -20px
+}
