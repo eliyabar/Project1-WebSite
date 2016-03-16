@@ -2,7 +2,7 @@
  * Created by elya on 09-Mar-16.
  */
 $("document").ready(function() {
-    $(".all_wedding_things").hide();
+    $(".all_wedding_things").hide();ף
     $(".all_about_us_things").hide();
     $("#start").click(function(){
         $(".budget").show(1000);
