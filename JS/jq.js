@@ -11,6 +11,7 @@ $("document").ready(function() {
         $(".gallery").show(1000);
         $(".budget").hide(1000);
     });
+
     rangeSlider();
 })
 
