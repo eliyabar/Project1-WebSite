@@ -49,7 +49,6 @@
     list-style-type: none;
     display: inline-block;
     margin-right: 10px;
-
 }
 #dots li:hover,
 #dots li.selected {	background-position: -20px 0; }

@@ -23,7 +23,6 @@
 .budget{
     width: 100%;
     display:none;
-
 }
 #text1 {
     margin: 20px;
@@ -60,21 +59,20 @@
 #nav {
     background: #2a2a2a;
     width: 100%;
-    height: 70px;
-    border-bottom: 2px solid #63CBE4;
+    height: 70%;
     line-height: normal;
 
 }
 #nav li{
     list-style-type: none;
     color: white;
-    font-size: 25px;
+    font-size: 120%;
     font-family: Poiret One;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     transition: ease 0.65s;
-    padding: 21px;
+    padding: 2.5%;
     display: inline-block;
 }
 #nav li:hover{
@@ -82,7 +80,7 @@
     cursor: pointer;
     transition: ease 0.65s;
     background-color: #212121;
-    padding-bottom: 19px;
+    padding-bottom: 29px;
 }
 body {
     background-image: url("../img/SkKQN7b.jpg");
@@ -102,8 +100,9 @@ body {
     transition: ease 0.65s;
 }
 #ip:hover{
-    background-color: none;
+/*    background-color: none;*/
     color: #63CBE4;
     transition: ease 0.65s;
 }
+
 /*------------------ NAVBAR END!--------------------------*/
